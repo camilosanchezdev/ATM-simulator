@@ -23,6 +23,7 @@ namespace ATM_Simulator
                 Console.WriteLine("3 - Deposit");
                 Console.WriteLine("4 - Exit");
                 options = int.Parse(Console.ReadLine());
+                Console.Clear();
                 switch (options)
                 {
                     case 1:
